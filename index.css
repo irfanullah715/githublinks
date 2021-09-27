@@ -50,11 +50,7 @@
 .message-sec a{
 	cursor: pointer;
 }
-/*-------------meet-our-team--------------*/
-.team-heading{
-	color: #0066ff;
-    text-shadow: 2px 2px 4px #000000;
-}
+/*-------------Board of Members--------------*/
 .our-team{
 	margin: 0 100px;
 }
