@@ -36,7 +36,7 @@
 	padding: 50px 30px;
 }
 .message-sec p{
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.6em;
 }
 .message-sec h5{
@@ -108,10 +108,13 @@
 	border-radius: 0;
     padding: 10px 15px;
 }
-.board-member .col-md-4{
+.board-member .board-col{
 	max-width: 250px;
 	margin: auto;
 	padding: 20px 0;
+}
+.media-gallery h1{
+    padding: 20px 0;
 }
 
 }
