@@ -51,8 +51,9 @@
 	cursor: pointer;
 }
 /*-------------Board of Members--------------*/
-.board-member img{
-	width: 100%;
+.board-member .row>div>div{
+    max-width: 250px;
+    margin: auto;
 }
 
 /*------------crousel--------------*/
@@ -107,11 +108,6 @@
 .message-sec{
 	border-radius: 0;
     padding: 10px 15px;
-}
-.board-member .row>div>div{
-	max-width: 250px;
-	margin: auto;
-	padding: 20px 0;
 }
 .media-gallery h1{
     padding: 20px 0;
