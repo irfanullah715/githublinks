@@ -85,6 +85,7 @@
 .owl-nav button{
     display: none;
 }
+}
 @media(max-width: 768px){
 .message-sec{
 	border-radius: 20px;
@@ -94,6 +95,10 @@
 .message-sec p{
     font-size: 18px;
     line-height: 1.6em;
+}
+.board-member img{
+    margin: 30px 0;
+}
 }
 @media(max-width: 567px){
 .message-sec{
@@ -108,6 +113,9 @@
 .message-sec{
 	border-radius: 0;
     padding: 10px 15px;
+}
+.board-member img{
+    margin: 30px 0;
 }
 .media-gallery h1{
     padding: 20px 0;
