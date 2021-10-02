@@ -11,19 +11,19 @@ $(function() {
             margin: 20,
             smartSpeed: 1000,
             autoplay: true,
-            nav: true,
+            nav: false,
             dots: true,
             pauseOnHover: false,
             responsive:{
                 600:{
                     margin: 20,
-                    nav: true,
+                    nav: false,
                   items: 2
                 },
                 1000:{
                     margin: 20,
                     stagePadding: 0,
-                    nav: true,
+                    nav: false,
                   items: 3
                 }
             }
@@ -43,19 +43,19 @@ $(function() {
             margin: 20,
             smartSpeed: 1000,
             autoplay: true,
-            nav: true,
+            nav: false,
             dots: true,
             pauseOnHover: false,
             responsive:{
                 600:{
                     margin: 20,
-                    nav: true,
+                    nav: false,
                   items: 2
                 },
                 1000:{
                     margin: 20,
                     stagePadding: 0,
-                    nav: true,
+                    nav: false,
                   items: 2
                 }
             }

@@ -90,8 +90,29 @@
 }
 
 /*------------footer------------*/
-
-
+.footer{
+     background-image: linear-gradient(to right top, #060a0d, #090d11, #0d1015, #101217, #14141a);   color: white;
+     padding: 50px 0;
+}
+.footer .fa{
+    padding: 0 10px;
+    font-size: 30px;
+    color: white;
+}
+.footer .social-icon .fa:hover{
+    color: black;
+}
+.footer ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer ul li a:hover{
+    color: black;
+}
 
 
 
@@ -101,11 +122,6 @@
 
 
 /*------------------media-------------------*/
-@media(max-width: 1624px){
-.owl-nav button{
-    display: none;
-}
-}
 @media(max-width: 768px){
 .message-sec{
 	border-radius: 20px;
