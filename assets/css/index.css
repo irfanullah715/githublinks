@@ -70,7 +70,7 @@
   bottom: -30px; }
   .owl-2-style .owl-dots .owl-dot {
     display: inline-block; }
-    .owl-2-style .owl-dots .owl-dot span {
+.owl-2-style .owl-dots .owl-dot span {
       display: inline-block;
       width: 15px;
       height: 3px;
@@ -80,41 +80,57 @@
       -o-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
       transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
       margin: 3px; }
-    .owl-2-style .owl-dots .owl-dot.active span {
+.owl-2-style .owl-dots .owl-dot.active span {
       background: #007bff; }
-    .owl-2-style .owl-dots .owl-dot:active, .owl-2-style .owl-dots .owl-dot:focus {
+.owl-2-style .owl-dots .owl-dot:active, .owl-2-style .owl-dots .owl-dot:focus {
       outline: none; }
-/*------------crousel-Webinars------------*/
+.owl-carousel .owl-nav .owl-prev{
+        position: absolute;
+        top: 50%;
+        left: -20px;
+        transform: translateY(50%);
+      }
+.owl-carousel .owl-nav .owl-next{
+        position: absolute;
+        top: 50%;
+        right: -20px;
+        transform: translateY(50%);
+      }
+.owl-carousel .owl-nav span{
+        font-size: 25px;
+    }
+    /*------------crousel-Webinars------------*/
+
 .webinars{
     padding: 30px 0;
 }
-
+/*------------contact-us------------*/
+.contact-us{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65),
+    rgba(0,0,0,0.65)), url(../images/contact-us.jpg);
+    background-size: cover;
+}
+.contact-us form{
+    padding: 40px 30px;
+    background-color: white;
+}
 /*------------footer------------*/
-.footer{
-     background-image: linear-gradient(to right top, #060a0d, #090d11, #0d1015, #101217, #14141a);   color: white;
-     padding: 50px 0;
+footer.page-footer a {
+    color: black !important;
 }
-.footer .fa{
-    padding: 0 10px;
-    font-size: 30px;
-    color: white;
+.page-footer .footer-copyright{
+    background-color: black;
 }
-.footer .social-icon .fa:hover{
-    color: black;
+.page-footer img{
+    width: 200px;
 }
-.footer ul li{
-    list-style: none;
-    padding: 10px 0;
+.page-footer .fa{
+    font-size: 25px;
+    padding: 10px 5px;
+    cursor: pointer;
 }
-.footer ul li a{
-    text-decoration: none;
-    color: white;
-}
-.footer ul li a:hover{
-    color: black;
-}
-
-
 
 
 
