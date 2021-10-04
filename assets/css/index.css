@@ -141,6 +141,7 @@
 .contact-us form .btn{
     background-color: black;
     border: 1px solid black;
+    margin-left: 0px;
 }
 .contact-us form .btn:hover{
     background-color: white;
@@ -153,15 +154,12 @@
     width: 200px;
 }
 .page-footer .fa{
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px 5px;
     cursor: pointer;
 }
-.page-footer hr:hover{
-    width: 100px !important;
-    cursor: pointer;
-    transition: 0.3s;
-
+.page-footer i:hover{
+    color: pink;
 }
 
 /*------------------media-------------------*/
