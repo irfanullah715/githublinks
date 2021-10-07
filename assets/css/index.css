@@ -33,13 +33,14 @@
 /*-------------message--------------*/
 .message-sec{
 	border-radius: 20px;
-	background-image: linear-gradient(to right top, #060a0d, #090d11, #0d1015, #101217, #14141a);	color: white;
+    background: rgba(0, 0, 0, 0.9);
 	margin-top: -200px;
 	padding: 50px 30px;
 }
 .message-sec p{
     font-size: 16px;
     line-height: 1.6em;
+    color: white;
 }
 .message-sec h5{
 	color: white;
@@ -178,7 +179,6 @@
 }
 .board-heading{
     width: 600px;
-    background-image: linear-gradient(to right top, #060a0d, #090d11, #0d1015, #101217, #14141a);   color: white;
     text-align: center;
     padding: 30px 60px;
     color: white;
@@ -186,6 +186,7 @@
     margin-top: -70px;
     margin-bottom: 30px;
     border-radius: 10px;
+    background: rgba(0, 0, 0, 0.9);
 }
 .board-trustees .sahar-bg{
     background-image: linear-gradient(to right top, #060a0d, #090d11, #0d1015, #101217, #14141a);   color: white;
@@ -198,8 +199,11 @@
 }
 .board-trustees .all-text p{
     padding: 15px 0;
+    font-size: 14px;
 }
-
+.board-trustees h5{
+    font-size: 16px;
+}
 
 
 
@@ -277,13 +281,13 @@
     border-radius: 0px;
 }
 .board-heading h1{
-    font-size: 30px;
+    font-size: 26px;
 }
 .board-trustees h3{
-    font-size: 24px;
+    font-size: 22px;
 }
 .board-trustees h5{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 }
