@@ -195,7 +195,6 @@
 }
 .board-trustees .all-text{
     padding: 0 80px;
-    text-align: center;
 }
 .board-trustees .all-text p{
     padding: 15px 0;
@@ -280,5 +279,12 @@
 .board-heading h1{
     font-size: 30px;
 }
+.board-trustees h3{
+    font-size: 24px;
+}
+.board-trustees h5{
+    font-size: 16px;
+}
+
 }
 
