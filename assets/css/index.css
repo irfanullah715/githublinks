@@ -3,6 +3,8 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+/*-------------Home-Page--------------*/
+
 /*-------------navbar--------------*/
 .navbar img{
     width: 200px;
@@ -130,16 +132,20 @@
 }
 .contact-us form .form-group label{
     position: absolute;
-    left: 0;
+    left: 11px;
+    top: 15px;
     color: gray;
     font-size: 14px;
-    margin: -30px 0 0 10px;
+    
     pointer-events: none;
     transition: 0.3s;
 }
+.contact-us form .form-group textarea:valid ~ label,
+.contact-us form .form-group textarea:focus ~ label,
+.contact-us form .form-group input:valid ~ label,
 .contact-us form .form-group input:focus ~ label{
     color: black;
-    transform: translateY(-20px);
+    transform: translateY(-15px);
 }
 
 .contact-us form .btn{
@@ -166,8 +172,46 @@
 .page-footer i:hover{
     color: pink;
 }
+/*-----------Board-of-Trustees-Page-------------*/
+.board-trustees img{
+    max-width: 100%;
+}
+.board-heading{
+    width: 600px;
+    background-image: linear-gradient(to right top, #060a0d, #090d11, #0d1015, #101217, #14141a);   color: white;
+    text-align: center;
+    padding: 30px 60px;
+    color: white;
+    margin: auto;
+    margin-top: -70px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.board-trustees .sahar-bg{
+    background-image: linear-gradient(to right top, #060a0d, #090d11, #0d1015, #101217, #14141a);   color: white;
+}
+.board-trustees .brig-bg{
+    background-image: linear-gradient(to right top, #060a0d, #090d11, #0d1015, #101217, #14141a);   color: white;
+}
+.board-trustees .all-text{
+    padding: 0 80px;
+    text-align: center;
+}
+.board-trustees .all-text p{
+    padding: 15px 0;
+}
 
-/*------------------media-------------------*/
+
+
+
+
+
+
+
+
+/*------------------Media-Query------------------*/
+
+/*----------------Home-page-----------------*/
 @media(max-width: 768px){
 .message-sec{
 	border-radius: 20px;
@@ -187,19 +231,18 @@
     padding: 24px 20px;
     background-color: white;
 }
-}
 @media(max-width: 567px){
 .message-sec{
-	border-radius: 20px;
-	margin-top: -100px;
-	padding: 20px 10px;
+    border-radius: 20px;
+    margin-top: -100px;
+    padding: 20px 10px;
 }
 .message-sec p{
     font-size: 15px;
     line-height: 1.6em;
 }
 .message-sec{
-	border-radius: 0;
+    border-radius: 0;
     padding: 10px 15px;
 }
 .board-member img{
@@ -214,5 +257,28 @@
 .owl-carousel .owl-nav .owl-next{
         right: -12px;
       }
-
+/*-----------.board-trustees-page---------------*/
+.board-trustees h2{
+        text-align: center;
+        padding: 20px 0;
+    }
+.board-trustees h5,p{
+        text-align: center;
+        padding: 5px 0;
+    }
+.board-heading{
+    width: auto;
+    background-image: linear-gradient(to right top, #060a0d, #090d11, #0d1015, #101217, #14141a);   color: white;
+    text-align: center;
+    padding: 30px 20px;
+    color: white;
+    margin: auto;
+    margin-top: -100px;
+    margin-bottom: 30px;
+    border-radius: 0px;
 }
+.board-heading h1{
+    font-size: 30px;
+}
+}
+
